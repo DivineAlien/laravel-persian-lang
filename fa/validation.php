@@ -103,7 +103,7 @@ return [
     'password' => 'رمز اشتباه است.',
     'present' => 'فیلد ورودی :attribute باید وجود داشته باشد.',
     'regex' => 'فرمت :attribute قابل قبول نمیباشد',
-    'required' => 'فیلد :attribute الزامی است.',
+    'required' => ':attribute الزامی است.',
     'required_if' => ':attribute الزامی است در صورتی که :other برابر :value باشد.',
     'required_unless' => ':attribute الزامی است تا زمانی که :other در :values باشد.',
     'required_with' => ':attribute الزامی است زمانی که :values وجود دارد.',
@@ -123,7 +123,7 @@ return [
     'timezone' => ':attribute باید که موقعیت مکان زمانی معتبر باشد.',
     'unique' => ':attribute قبلا استفاده شده است.',
     'uploaded' => ':attribute موفق به آپلود نشده است.',
-    'url' => ':attibute باید یک url معتبر باشد.',
+    'url' => ':attribute باید یک url معتبر باشد.',
     'uuid' => ':attribute باید یک UUID معتبر باشد.',
 
     /*
@@ -163,10 +163,8 @@ return [
         'tags' => 'تگ',
         'email' => 'ایمیل',
         'password' => 'رمز عبور',
-        'group_id' => 'گروه',
-        'center_id' => 'مرکز',
-        'field_id' => 'رشته',
-
+        'link' => 'لینک',
+        'image' => 'تصویر',
     ],
 
 ];
