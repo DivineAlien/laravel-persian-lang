@@ -1,5 +1,5 @@
 # laravel-persian-lang
-translated Laravel errors and messages for Persian localization
+translated Laravel 7.X errors and messages for Persian localization
 
 
 ## installing
@@ -18,4 +18,4 @@ open the ```config/app.php``` file and change ```'locale' => 'en'``` to ```'loca
 
 you can open ```fa/validation.php``` and customize ```atribute``` array.
 
-## enjoy
+### enjoy
