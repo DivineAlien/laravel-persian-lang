@@ -86,13 +86,7 @@ return [
     'mimes' => ':attribute باید یک فال با فرمت: :values باشد.',
     'mimetypes' => ':attribute باید یک فال با فرمت: :values باشد.',
     'min' => [
-        'numeric' => 'The :attribute must be at least :min.',
-        'file' => 'The :attribute must be at least :min kilobytes.',
-        'string' => 'The :attribute must be at least :min characters.',
-        'array' => 'The :attribute must have at least :min items.',
-    ],
-    'min' => [
-        'numeric' => ':attribute حداقل باید :min کاراکتر باشد.',
+        'numeric' => ':attribute حداقل باید :min باشد.',
         'file' => ':attribute باید حداقل :min کیلوبایت باشد.',
         'string' => ':attribute حداقل باید :min کاراکتر باشد.',
         'array' => ':attribute حداقل باید :min مقدار داشته باشد.',
@@ -165,6 +159,14 @@ return [
         'password' => 'رمز عبور',
         'link' => 'لینک',
         'image' => 'تصویر',
+        'reciver' => 'دریافت کننده',
+        'content' => 'محتوا',
+        'year' => 'سال',
+        'month' => 'ماه',
+        'day' => 'روز',
+        'hour' => 'ساعت',
+        'minute' => 'دقیقه',
+        'seconds' => 'ثانیه',
     ],
 
 ];
